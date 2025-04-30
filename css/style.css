@@ -1,5 +1,7 @@
-[data-type='primary' i] {
-  color: red;
+[data-type='primary'] {
+  background-color: red;
+  width: clamp(300px, 50%, 600px);
+  height: clamp(200px, 30vh, 400px);
 }
 
 [href*='example.com'] {
