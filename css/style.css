@@ -1,0 +1,21 @@
+[data-type='primary' i] {
+  color: red;
+}
+
+[href*='example.com'] {
+  color: blue;
+}
+
+[href^='https'] {
+  color: green;
+}
+
+[href$='.net'] {
+  color: yellow;
+}
+
+h1 {
+  font-size: clamp(1.5rem, 2vw + 1rem, 3rem);
+  font-weight: bold;
+  color: #0077cc;
+}
